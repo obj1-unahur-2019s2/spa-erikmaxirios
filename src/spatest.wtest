@@ -1,0 +1,20 @@
+import spa.*
+import personas.*
+
+test "pruebaramiro"{
+	spa.atender(ramiro)
+	assert.notThat(ramiro.pielGrasosa())
+	
+}
+
+
+
+
+
+test "pruebaolivia" {
+	olivia.recibirMasajes()
+	olivia.recibirMasajes()
+	assert.equals(12,olivia.gradoDeConcentracion())
+	
+
+}
